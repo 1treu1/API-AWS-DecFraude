@@ -3,7 +3,7 @@ from pycaret.classification import *
 import pandas as pd
 
 
-loaded_model = load_model('/mnt/c/Users/lhmedina/Downloads/DataKnow/Prueba_Tecnica/Punto 6/API/Model_Prod_P6/model_prod')
+loaded_model = load_model('/home/ubuntu/API-AWS-DecFraude/Model_Prod_P6/model_prod')
 
 
 app = FastAPI()
