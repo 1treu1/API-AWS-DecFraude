@@ -277,3 +277,13 @@ This warnings indicates broken support for the dtype!
 2024-01-07 17:58:19,481:INFO:Preloading libraries
 2024-01-07 17:58:19,481:INFO:Set up data.
 2024-01-07 17:58:19,484:INFO:Set up index.
+2024-01-07 19:10:58,981:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-01-07 19:10:58,982:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-01-07 19:10:58,982:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-01-07 19:10:58,982:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-01-07 19:11:01,169:INFO:Initializing load_model()
+2024-01-07 19:11:01,169:INFO:load_model(model_name=/home/ubuntu/API-AWS-DecFraude/Model_Prod_P6/model_prod, platform=None, authentication=None, verbose=True)
