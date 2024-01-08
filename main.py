@@ -7,6 +7,7 @@ loaded_model = load_model('/home/ubuntu/API-AWS-DecFraude/Model_Prod_P6/model_pr
 
 
 app = FastAPI()
+app = FastAPI(title="API-AWS para predicción de fraude")
 @app.post("/convert_to_dataframe/")
 async def convert_to_dataframe(
     INGRESOS: int = Query(None, description="Ingrese el valor de INGRESOS", example=11000000),
